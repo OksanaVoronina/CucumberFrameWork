@@ -242,7 +242,7 @@ public static void clickRadioOrCheckBox(List<WebElement> radioOrCheckbox,String 
 			
 			List<WebElement>days=driver.findElements(By.xpath("//table[@class='ui-datepicker-calendar']/tbody/tr/td"));
 			for(WebElement day:days) {
-				if(day.getText().equals("14")) {
+				if(day.getText().equals(text)) {
 					day.click();
 					break;
 				}

@@ -2,6 +2,7 @@ package com.hrms.pages;
 
 import java.util.List;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -40,6 +41,7 @@ public class DashboardPageElement extends CommonMethods{
 	
 	@FindBy(id="welcome-menu")
 	public WebElement logout;
+	
 	public DashboardPageElement() {
 		PageFactory.initElements(BaseClass.driver, this);
 	}
