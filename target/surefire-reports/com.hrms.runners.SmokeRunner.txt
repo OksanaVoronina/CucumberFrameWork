@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.hrms.runners.SmokeRunner
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 17, Time elapsed: 0.636 s - in com.hrms.runners.SmokeRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.705 s - in com.hrms.runners.SmokeRunner

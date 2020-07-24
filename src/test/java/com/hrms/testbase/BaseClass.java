@@ -20,12 +20,14 @@ public class BaseClass {
 	public static WebDriver setUp() {
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "true");
 		ConfigsReader.readProperties(Constants.Chrome_Driver);
+		String headless= ConfigsReader.getPropery("headless");
+
 		switch (ConfigsReader.getPropery("browser").toLowerCase()) {
-        String headless= ConfigsReader.getPropery("headless");
+        
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions cOption = new ChromeOptions();
-			if (headless.equalsIgnoreCase(headless)) {
+			if (headless.equalsIgnoreCase("true")) {
 				cOption.setHeadless(true);
 				driver = new ChromeDriver(cOption);
 			}else{
@@ -39,6 +41,8 @@ public class BaseClass {
 		default:
 			throw new RuntimeException("browser not suported");
 		}
+	
+	
 		//to make screen big
 		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT_TIME, TimeUnit.SECONDS);

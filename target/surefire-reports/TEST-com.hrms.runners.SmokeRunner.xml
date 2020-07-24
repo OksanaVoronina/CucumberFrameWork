@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.hrms.runners.SmokeRunner" time="0.636" tests="17" errors="0" skipped="17" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.hrms.runners.SmokeRunner" time="14.705" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="cucumber.option" value="tags@regression"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/test-classes:/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/classes:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/oksanavoronina/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/oksanavoronina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/oksanavoronina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/oksanavoronina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/oksanavoronina/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/oksanavoronina/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/oksanavoronina/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/oksanavoronina/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/oksanavoronina/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/oksanavoronina/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/oksanavoronina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/oksanavoronina/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/oksanavoronina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/oksanavoronina/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/oksanavoronina/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:"/>
+    <property name="java.class.path" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/test-classes:/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/classes:/Users/oksanavoronina/.m2/repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar:/Users/oksanavoronina/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/oksanavoronina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/oksanavoronina/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/oksanavoronina/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/oksanavoronina/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/oksanavoronina/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/oksanavoronina/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/oksanavoronina/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/oksanavoronina/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/oksanavoronina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/oksanavoronina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/oksanavoronina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/oksanavoronina/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/oksanavoronina/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/oksanavoronina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/oksanavoronina/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/oksanavoronina/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/oksanavoronina/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/oksanavoronina/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/oksanavoronina/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -18,9 +17,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/surefire/surefirebooter2663688840327643380.jar /Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/surefire 2020-06-13T11-00-53_179-jvmRun1 surefire7471908160185803393tmp surefire_06109757659883965329tmp"/>
+    <property name="sun.java.command" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/surefire/surefirebooter1625182979971507593.jar /Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/surefire 2020-07-24T12-24-13_345-jvmRun1 surefire7420605053762279955tmp surefire_01158477004823949232tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.test.class.path" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/test-classes:/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/classes:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/oksanavoronina/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/oksanavoronina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/oksanavoronina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/oksanavoronina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/oksanavoronina/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/oksanavoronina/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/oksanavoronina/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/oksanavoronina/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/oksanavoronina/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/oksanavoronina/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/oksanavoronina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/oksanavoronina/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/oksanavoronina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/oksanavoronina/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/oksanavoronina/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/test-classes:/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/classes:/Users/oksanavoronina/.m2/repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar:/Users/oksanavoronina/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/oksanavoronina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/oksanavoronina/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/oksanavoronina/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/oksanavoronina/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/oksanavoronina/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/oksanavoronina/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/oksanavoronina/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/oksanavoronina/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/oksanavoronina/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/oksanavoronina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/oksanavoronina/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/oksanavoronina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/oksanavoronina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/oksanavoronina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/oksanavoronina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/oksanavoronina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/oksanavoronina/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/oksanavoronina/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/oksanavoronina/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/oksanavoronina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/oksanavoronina/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/oksanavoronina/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/oksanavoronina/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/oksanavoronina/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/oksanavoronina/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/oksanavoronina/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.1/webdrivermanager-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/oksanavoronina/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/oksanavoronina/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/oksanavoronina/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/oksanavoronina/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/oksanavoronina"/>
     <property name="user.language" value="en"/>
@@ -32,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/surefire/surefirebooter2663688840327643380.jar"/>
+    <property name="surefire.real.class.path" value="/Users/oksanavoronina/eclipse-workspace/HrmsCucumber/target/surefire/surefirebooter1625182979971507593.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,201 +61,5 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="Add Employee with first and lastname" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario: Add Employee with first and lastname      # src/test/resources/features/AddEmployee.feature:8
-  Given user is logged with valid admin credentials # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage             # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enters employees "Jame" and "Smith"     # com.hrms.steps.AddEmployee.user_enters_employees_first_name_and_last_name(java.lang.String,java.lang.String)
-  And user clicks save button                       # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "Jame Smith" is added successfully           # com.hrms.steps.AddEmployee.employee_is_added_successfully(java.lang.String)
-]]></system-out>
-    <system-err><![CDATA[Jun 13, 2020 11:00:53 AM io.cucumber.junit.Cucumber <init>
-WARNING: By default Cucumber is running in --non-strict mode.
-This default will change to --strict and --non-strict will be removed.
-You can use --strict or @CucumberOptions(strict = true) to suppress this warning
-]]></system-err>
-  </testcase>
-  <testcase name="Add Employee without employee id" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario: Add Employee without employee id          # src/test/resources/features/AddEmployee.feature:14
-  Given user is logged with valid admin credentials # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage             # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enters employees "Banita" and "Bon"     # com.hrms.steps.AddEmployee.user_enters_employees_first_name_and_last_name(java.lang.String,java.lang.String)
-  And user deletes employee id                      # com.hrms.steps.AddEmployee.user_deletes_employee_id()
-  And user clicks save button                       # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "Banita Bon" is added successfully           # com.hrms.steps.AddEmployee.employee_is_added_successfully(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="AddEmployee and create Login Credentials" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario: AddEmployee and create Login Credentials  # src/test/resources/features/AddEmployee.feature:21
-  Given user is logged with valid admin credentials # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage             # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enters employees "taras" and "tar"      # com.hrms.steps.AddEmployee.user_enters_employees_first_name_and_last_name(java.lang.String,java.lang.String)
-  And user clicks on create login checkbox          # com.hrms.steps.AddEmployee.user_clicks_on_create_login_checkbox()
-  And user enters login credentials                 # com.hrms.steps.AddEmployee.user_enters_login_credentials()
-  And user clicks save button                       # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "taras tar" is added successfully            # com.hrms.steps.AddEmployee.employee_is_added_successfully(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="Adding multiple employees" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline: Adding multiple employees             # src/test/resources/features/AddEmployee.feature:38
-  Given user is logged with valid admin credentials     # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage                 # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enter employees "James", "Jad" and "Smith"  # com.hrms.steps.AddEmployee.enteringEmployee(java.lang.String,java.lang.String,java.lang.String)
-  And user clicks save button                           # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "James", "Jad" and "Smith" is added successfully # com.hrms.steps.AddEmployee.and_is_added_successfully(java.lang.String,java.lang.String,java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="Adding multiple employees" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline: Adding multiple employees              # src/test/resources/features/AddEmployee.feature:39
-  Given user is logged with valid admin credentials      # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage                  # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enter employees "Faisal", "Fus" and "Sakhi"  # com.hrms.steps.AddEmployee.enteringEmployee(java.lang.String,java.lang.String,java.lang.String)
-  And user clicks save button                            # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "Faisal", "Fus" and "Sakhi" is added successfully # com.hrms.steps.AddEmployee.and_is_added_successfully(java.lang.String,java.lang.String,java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="Adding multiple employees" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline: Adding multiple employees                 # src/test/resources/features/AddEmployee.feature:40
-  Given user is logged with valid admin credentials         # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage                     # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enter employees "Sohil", "Sad" and "Instuctor"  # com.hrms.steps.AddEmployee.enteringEmployee(java.lang.String,java.lang.String,java.lang.String)
-  And user clicks save button                               # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "Sohil", "Sad" and "Instuctor" is added successfully # com.hrms.steps.AddEmployee.and_is_added_successfully(java.lang.String,java.lang.String,java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="Adding multiple employees" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline: Adding multiple employees                # src/test/resources/features/AddEmployee.feature:41
-  Given user is logged with valid admin credentials        # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage                    # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enter employees "Yunus", "Emrery" and "Yakut"  # com.hrms.steps.AddEmployee.enteringEmployee(java.lang.String,java.lang.String,java.lang.String)
-  And user clicks save button                              # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "Yunus", "Emrery" and "Yakut" is added successfully # com.hrms.steps.AddEmployee.and_is_added_successfully(java.lang.String,java.lang.String,java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="Adding multiple employee from excel" classname="AddEployee" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario: Adding multiple employee from excel                                     # src/test/resources/features/AddEmployee.feature:52
-  Given user is logged with valid admin credentials                               # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage                                           # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enters employee data from "Loggin" excel sheet then employee is added # com.hrms.steps.AddEmployee.user_enters_employee_data_from_excel_sheet_then_employee_is_added(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="Dashboard menu view for admin" classname="Dashboard" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario: Dashboard menu view for admin            # src/test/resources/features/Dashboard.feature:5
-  When user is logged with valid admin credentials # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  Then user see dashboard menu is displayed        # com.hrms.steps.DashboardSteps.user_see_dashboard_menu_is_displayed(io.cucumber.datatable.DataTable)
-]]></system-out>
-  </testcase>
-  <testcase name="EMPTY_NAME" classname="Dashboard" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario:                                                   # src/test/resources/features/Dashboard.feature:11
-  When user enter valid ess "Alex121016" and "Alex121016$." # com.hrms.steps.LoginSteps.user_enter_valid_ess_and(java.lang.String,java.lang.String)
-  And user click on login button                            # com.hrms.steps.LoginSteps.user_click_on_login_button()
-  Then user see ess dashboard menu is displayed             # com.hrms.steps.DashboardSteps.user_see_ess_dashboard_menu_is_displayed(io.cucumber.datatable.DataTable)
-]]></system-out>
-  </testcase>
-  <testcase name="EMPTY_NAME" classname="Login" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline:                                     # src/test/resources/features/Login.feature:11
-  When user enter valid ess "Admin" and "Hum@nhrm123" # com.hrms.steps.LoginSteps.user_enter_valid_ess_and(java.lang.String,java.lang.String)
-  And user click on login button                      # com.hrms.steps.LoginSteps.user_click_on_login_button()
-  Then "Admin" is successfully logged in              # com.hrms.steps.LoginSteps.is_successfully_logged_in(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="EMPTY_NAME" classname="Login" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline:                                           # src/test/resources/features/Login.feature:12
-  When user enter valid ess "Alex121016" and "Alex121016$." # com.hrms.steps.LoginSteps.user_enter_valid_ess_and(java.lang.String,java.lang.String)
-  And user click on login button                            # com.hrms.steps.LoginSteps.user_click_on_login_button()
-  Then "Alex" is successfully logged in                     # com.hrms.steps.LoginSteps.is_successfully_logged_in(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="EMPTY_NAME" classname="Login" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline:                                             # src/test/resources/features/Login.feature:23
-  When User enter empty "Admin"  and invalid ""               # com.hrms.steps.LoginSteps.user_enter_valid_and_invalid(java.lang.String,java.lang.String)
-  And user click on login button                              # com.hrms.steps.LoginSteps.user_click_on_login_button()
-  Then User see "Password cannot be empty" text on login page # com.hrms.steps.LoginSteps.user_see_text_on_login_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="EMPTY_NAME" classname="Login" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario Outline:                                             # src/test/resources/features/Login.feature:24
-  When User enter empty ""  and invalid "Syntax123!"          # com.hrms.steps.LoginSteps.user_enter_valid_and_invalid(java.lang.String,java.lang.String)
-  And user click on login button                              # com.hrms.steps.LoginSteps.user_click_on_login_button()
-  Then User see "Username cannot be empty" text on login page # com.hrms.steps.LoginSteps.user_see_text_on_login_page(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name=": Login with empty username and valid password" classname="Login" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario: : Login with empty username and valid password # src/test/resources/features/Login.feature:28
-  When i enter empty credentials and see error massage   # com.hrms.steps.LoginSteps.i_enter_empty_credentials_and_valid_passwordand_see_error_massage(io.cucumber.datatable.DataTable)
-]]></system-out>
-  </testcase>
-  <testcase name="modifine personal details" classname="PersonalDetails" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@smoke
-Scenario: modifine personal details                 # src/test/resources/features/PersonalDetails.feature:8
-  Given user is logged with valid admin credentials # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigates to AddEmployeePage             # com.hrms.steps.AddEmployee.user_navigates_to_AddEmployeePage()
-  When user enters employees "Jame" and "Smith"     # com.hrms.steps.AddEmployee.user_enters_employees_first_name_and_last_name(java.lang.String,java.lang.String)
-  And user clicks save button                       # com.hrms.steps.AddEmployee.user_clicks_save_button()
-  Then "Jame Smith" is added successfully           # com.hrms.steps.AddEmployee.employee_is_added_successfully(java.lang.String)
-  And user click on edit button                     # com.hrms.steps.PesronalDetailsSteps.user_click_on_edit_button()
-  Then User modifiy information                     # com.hrms.steps.PesronalDetailsSteps.user_modifiy_information(io.cucumber.datatable.DataTable)
-  And user click save button                        # com.hrms.steps.PesronalDetailsSteps.user_click_save_button()
-  Then personal details is added successfully       # com.hrms.steps.PesronalDetailsSteps.personal_details_is_added_successfully()
-]]></system-out>
-  </testcase>
-  <testcase name="Search employee by id" classname="Employee Search" time="0">
-    <skipped message="This scenario is skipped"/>
-    <system-out><![CDATA[
-@searchEmployee @sprint13 @smoke
-Scenario: Search employee by id                     # src/test/resources/features/SearchEmployee.feature:8
-  Given user is logged with valid admin credentials # com.hrms.steps.LoginSteps.user_is_logged_with_valid_admin_credentials()
-  And user navigate to employee list page           # com.hrms.steps.EmployeeSearchSteps.user_navigate_to_employee_list_page()
-  When user enters valid employee id "10079"        # com.hrms.steps.EmployeeSearchSteps.user_enters_valid_employee_id(java.lang.String)
-  And click on search button                        # com.hrms.steps.EmployeeSearchSteps.click_on_search_button()
-  Then user see employee information is displayed   # com.hrms.steps.EmployeeSearchSteps.user_see_employee_information_is_displayed()
-]]></system-out>
-  </testcase>
+  <testcase name="First Name validation against DB" classname="Name validation againts DB" time="14.348"/>
 </testsuite>

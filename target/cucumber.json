@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-09T16:52:21.716Z",
+        "start_timestamp": "2020-07-24T16:24:14.230Z",
         "before": [
           {
             "result": {
-              "duration": 3457000000,
+              "duration": 2823000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 92000000,
+              "duration": 90000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2342000000,
+              "duration": 3922000000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 4369000000,
+              "duration": 4219000000,
               "status": "passed"
             },
             "line": 5,
@@ -59,15 +59,15 @@
           },
           {
             "result": {
-              "duration": 121000000,
+              "duration": 82000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user enters valid employee id \"10079\"",
+            "name": "user enters valid employee id \"14589\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"10079\"",
+                  "val": "\"14589\"",
                   "offset": 30
                 }
               ],
@@ -77,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 1188000000,
+              "duration": 1206000000,
               "status": "passed"
             },
             "line": 7,
@@ -89,48 +89,49 @@
           },
           {
             "result": {
-              "duration": 42000000,
+              "duration": 36000000,
               "status": "passed"
             },
             "line": 8,
             "name": "user see table is displayed",
             "match": {
-              "location": "com.hrms.steps.DBSteps.user_see_table_is_displayed()"
+              "location": "com.hrms.steps.EmployeeSearchSteps.user_see_table_is_displayed()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "line": 9,
             "name": "get first name from table",
             "match": {
-              "location": "com.hrms.steps.DBSteps.get_first_name_from_table()"
+              "location": "com.hrms.steps.EmployeeSearchSteps.get_first_name_from_table()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 1768000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "get data from db",
+            "name": "get first name from db",
             "match": {
-              "location": "com.hrms.steps.DBSteps.get_data_from_db()"
+              "location": "com.hrms.steps.DBStep.get_first_name_from_db()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 25000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "verify first name from ui against db F",
+            "name": "verify first name from ui against db",
             "match": {
-              "location": "com.hrms.steps.DBSteps.verify_first_name_from_ui_against_db_F()"
+              "location": "com.hrms.steps.EmployeeSearchSteps.verify_first_name_from_ui_against_db()"
             },
             "keyword": "Then "
           }

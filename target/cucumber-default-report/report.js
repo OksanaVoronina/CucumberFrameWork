@@ -38,7 +38,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters valid employee id \"10079\"",
+  "name": "user enters valid employee id \"14589\"",
   "keyword": "When "
 });
 formatter.match({
@@ -62,7 +62,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.hrms.steps.DBSteps.user_see_table_is_displayed()"
+  "location": "com.hrms.steps.EmployeeSearchSteps.user_see_table_is_displayed()"
 });
 formatter.result({
   "status": "passed"
@@ -72,27 +72,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "com.hrms.steps.DBSteps.get_first_name_from_table()"
+  "location": "com.hrms.steps.EmployeeSearchSteps.get_first_name_from_table()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "get data from db",
+  "name": "get first name from db",
   "keyword": "When "
 });
 formatter.match({
-  "location": "com.hrms.steps.DBSteps.get_data_from_db()"
+  "location": "com.hrms.steps.DBStep.get_first_name_from_db()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify first name from ui against db F",
+  "name": "verify first name from ui against db",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.hrms.steps.DBSteps.verify_first_name_from_ui_against_db_F()"
+  "location": "com.hrms.steps.EmployeeSearchSteps.verify_first_name_from_ui_against_db()"
 });
 formatter.result({
   "status": "passed"
